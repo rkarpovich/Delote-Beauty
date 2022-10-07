@@ -1,0 +1,87 @@
+
+.description{
+  padding: 120px 0px 95px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description p {
+  color: white;
+  font-size: 27px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "CormorantGaramond";
+  margin-top: 60px;
+  line-height: 35.1px;
+  text-align: center;
+}
+.services-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.services-img-wrapper{
+  width: 396px;
+  height: 300px;
+  border: 1px solid #CDAA7D;
+  margin: 0px 0px 170px 0px;
+  position: relative;
+}
+.services-img-wrapper figure{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+figcaption{
+  color: white;
+  font-size: 27px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "CormorantGaramond";
+  padding-top: 30px;
+}
+.partners .content-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+.partners{
+  padding: 160px 0px 180px 0px;
+}
+.our-works h2{
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "CormorantGaramond";
+  text-align: center;
+  margin-bottom: 80px;
+}
+.list{
+  text-align: center;
+  margin-bottom: 80px;
+}
+.list ul li{
+  margin: 80px;
+  display: inline;
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "CormorantGaramond";
+}
+.list ul{
+  margin-bottom: 36px;
+}
+.wrapper-img-work{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.wrapper-img-work img{
+  margin-top: 24px;
+}

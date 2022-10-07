@@ -1,0 +1,47 @@
+.services{
+  padding: 80px 0px 80px 0px;
+}
+.description p{
+  color: white;
+  font-size: 48px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-family: "CormorantGaramond";
+}
+.services-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 60px;
+}
+.services-img-wrapper{
+  width: 396px;
+  height: 477px;
+  border: 1px solid #CDAA7D;
+  margin: 0px 0px 170px 0px;
+  position: relative;
+}
+.services-img-wrapper figure{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+figcaption{
+  color: white;
+  font-size: 27px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "CormorantGaramond";
+  margin-top: 30px;
+}
+figcaption:last-child{
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "CormorantGaramond";
+  margin-top: 10px;
+}

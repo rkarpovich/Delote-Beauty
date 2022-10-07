@@ -1,0 +1,36 @@
+@font-face{
+  font-family: "CormorantGaramond";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../assets/fonts/CormorantGaramond-Regular.ttf");
+}
+@font-face{
+  font-family: "CormorantGaramond";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../assets/fonts/CormorantGaramond-Italic.ttf");
+}
+@font-face{
+  font-family: "CormorantGaramond";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../assets/fonts/CormorantGaramond-Bold.ttf");
+}
+@font-face{
+  font-family: "CormorantGaramond";
+  font-weight: 700;
+  font-style: italic;
+  src: url("../assets/fonts/CormorantGaramond-BoldItalic.ttf");
+}
+@font-face{
+  font-family: "CormorantGaramond";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../assets/fonts/CormorantGaramond-SemiBold.ttf");
+}
+@font-face{
+  font-family: "CormorantGaramond";
+  font-weight: 600;
+  font-style: italic;
+  src: url("../assets/fonts/CormorantGaramond-SemiBoldItalic.ttf");
+}
