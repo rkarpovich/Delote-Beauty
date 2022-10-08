@@ -50,7 +50,12 @@ nav{
   font-weight: 600;
   font-family: "CormorantGaramond";
 }
-.header-list ul li:hover, .list ul li:hover {
+.header-list ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.header-list ul li:hover, .list ul li:hover, .header-list ul li a:hover {
   color: #CDAA7D;
   text-decoration: underline;
 }
