@@ -27,6 +27,7 @@ header{
   height: 1038px;
   background: url("../assets/img/home/header.jpg") center center no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 nav{
@@ -65,6 +66,34 @@ nav{
 .line{
   border: 0.5px solid #FFFFFF;;
 }
+.wrapper-pop-up{
+  width: 420px;
+  height: 1038px;
+  background-color: black;
+  display: none;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+}
+#icon-close{
+  position: absolute;
+  top: 42px;
+  justify-content: space-around;
+  left: 82px;
+}
+.wrapper-modal-content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60px;
+
+}
+.modal-contact-information{
+  margin-top: 80px;
+}
+
 .header-content{
   color: #FFFFFF;
   display: flex;
@@ -118,7 +147,7 @@ footer .line{
   font-family: "CormorantGaramond";
   color: white;
 }
-.contact-information p{
+.contact-information p, .modal-content p{
   margin-top: 15px;
   font-size: 18px;
   font-weight: 400;
