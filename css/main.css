@@ -56,15 +56,19 @@ nav{
   color: white;
 }
 
-.header-list ul li:hover, .list ul li:hover, .header-list ul li a:hover {
+.header-list ul li:hover:not(.active), .list ul li:hover, .header-list ul li a:hover {
   color: #CDAA7D;
   text-decoration: underline;
+}
+.header-list ul li.active {
+  color: #CDAA7D;
 }
 .header-list ul li:last-child, .list ul li:last-child {
   margin-right: 0px;
 }
 .line{
-  border: 0.5px solid #FFFFFF;;
+  border-top: 1px solid #FFFFFF;
+  height: 0px;
 }
 .wrapper-pop-up{
   width: 420px;

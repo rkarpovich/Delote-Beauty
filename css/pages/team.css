@@ -1,3 +1,8 @@
+header{
+  height: auto;
+  background: transparent;
+}
+
 .services{
   padding: 80px 0px 80px 0px;
 }

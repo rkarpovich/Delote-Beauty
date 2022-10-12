@@ -1,4 +1,7 @@
-
+header{
+  height: auto;
+  background: transparent;
+}
 .description p {
   color: white;
   font-size: 48px;
