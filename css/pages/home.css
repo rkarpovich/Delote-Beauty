@@ -1,10 +1,50 @@
+header {
+  background: url("../../assets/img/home/header.jpg") center center no-repeat;
+  background-size: cover;
+}
 
-.description{
+header .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-content {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "CormorantGaramond";
+  font-size: 72px;
+  margin: 260px 0px 290px 0px;
+}
+
+.scroll-down {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 138px;
+}
+
+.scroll-down p {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "CormorantGaramond";
+  padding-left: 20px;
+}
+
+.description {
   padding: 120px 0px 95px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .description p {
   color: white;
   font-size: 27px;
@@ -15,26 +55,30 @@
   line-height: 35.1px;
   text-align: center;
 }
-.services-img{
+
+.services-img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
 }
-.services-img-wrapper{
+
+.services-img-wrapper {
   width: 396px;
   height: 300px;
   border: 1px solid #CDAA7D;
   margin: 0px 0px 170px 0px;
   position: relative;
 }
-.services-img-wrapper figure{
+
+.services-img-wrapper figure {
   position: absolute;
   top: 20px;
   right: 20px;
 }
-figcaption{
+
+figcaption {
   color: white;
   font-size: 27px;
   font-weight: 400;
@@ -42,14 +86,17 @@ figcaption{
   font-family: "CormorantGaramond";
   padding-top: 30px;
 }
-.partners .content-wrapper{
+
+.partners .content-wrapper {
   display: flex;
   justify-content: space-around;
 }
-.partners{
+
+.partners {
   padding: 160px 0px 180px 0px;
 }
-.our-works h2{
+
+.our-works h2 {
   color: white;
   font-size: 48px;
   font-weight: 700;
@@ -58,11 +105,13 @@ figcaption{
   text-align: center;
   margin-bottom: 80px;
 }
-.list{
+
+.list {
   text-align: center;
   margin-bottom: 80px;
 }
-.list ul li{
+
+.list ul li {
   margin: 80px;
   display: inline;
   color: white;
@@ -71,10 +120,12 @@ figcaption{
   font-weight: 400;
   font-family: "CormorantGaramond";
 }
-.list ul{
+
+.list ul {
   margin-bottom: 36px;
 }
-.wrapper-img-work{
+
+.wrapper-img-work {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -82,6 +133,7 @@ figcaption{
   width: 100%;
   margin-bottom: 100px;
 }
-.wrapper-img-work img{
+
+.wrapper-img-work img {
   margin-top: 24px;
 }
