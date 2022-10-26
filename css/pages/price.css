@@ -1,4 +1,4 @@
-.description p {
+.description {
   color: white;
   font-size: 48px;
   font-style: normal;
@@ -61,7 +61,7 @@
 }
 
 .services-line {
-  border: 0.5px solid #FFFFFF;
+  border-top: 1px solid #FFFFFF;
   width: 100%;
   margin-bottom: 40px;
 }

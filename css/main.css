@@ -40,6 +40,7 @@ nav {
   font-style: normal;
   font-weight: 600;
   font-family: "CormorantGaramond";
+  color: white;
 }
 
 .header-list li a {
@@ -60,37 +61,6 @@ nav {
 .line {
   border-top: 1px solid #FFFFFF;
   height: 0px;
-}
-
-.wrapper-pop-up {
-  width: 420px;
-  height: 1038px;
-  background-color: black;
-  display: none;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-}
-
-#icon-close {
-  position: absolute;
-  top: 42px;
-  justify-content: space-around;
-  left: 82px;
-}
-
-.wrapper-modal-content {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 60px;
-
-}
-
-.modal-contact-information {
-  margin-top: 80px;
 }
 
 footer .line {

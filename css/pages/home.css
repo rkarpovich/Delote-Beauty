@@ -52,7 +52,7 @@ header .content-wrapper {
   font-style: normal;
   font-family: "CormorantGaramond";
   margin-top: 60px;
-  line-height: 35.1px;
+  line-height: 35px;
   text-align: center;
 }
 
@@ -65,7 +65,7 @@ header .content-wrapper {
 }
 
 .services-img-wrapper {
-  width: 396px;
+  width: 30%;
   height: 300px;
   border: 1px solid #CDAA7D;
   margin: 0px 0px 170px 0px;
