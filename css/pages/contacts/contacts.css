@@ -1,3 +1,10 @@
+@import url("contacts-320.css");
+@import url("contacts-480.css");
+@import url("contacts-768.css");
+@import url("contacts-1024.css");
+@import url("contacts-1440.css");
+@import url("contacts-1920.css");
+
 .services {
   padding: 80px 0px 80px 0px;
 }

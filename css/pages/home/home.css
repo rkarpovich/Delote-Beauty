@@ -1,3 +1,10 @@
+@import url("home-320.css");
+@import url("home-480.css");
+@import url("home-768.css");
+@import url("home-1024.css");
+@import url("home-1440.css");
+@import url("home-1920.css");
+
 header {
   background: url("../../assets/img/home/header.jpg") center center no-repeat;
   background-size: cover;

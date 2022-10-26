@@ -1,3 +1,10 @@
+@import url("team-320.css");
+@import url("team-480.css");
+@import url("team-768.css");
+@import url("team-1024.css");
+@import url("team-1440.css");
+@import url("team-1920.css");
+
 .services {
   padding: 80px 0px 80px 0px;
 }
