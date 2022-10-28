@@ -6,7 +6,7 @@
 @import url("home-1920.css");
 
 header {
-  background: url("../../assets/img/home/header.jpg") center center no-repeat;
+  background: url("../../../assets/img/home/header.jpg") center center no-repeat;
   background-size: cover;
 }
 
