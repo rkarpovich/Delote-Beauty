@@ -10,6 +10,7 @@ main,
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .content-wrapper {
@@ -58,47 +59,37 @@ nav {
   color: #CDAA7D;
 }
 
+.footer__wrapper-contact-information  {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__contact-information h3 {
+  font-weight: 700;
+  font-style: normal;
+  font-family: "CormorantGaramond";
+  color: white;
+}
+
+.footer__contact-information p {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "CormorantGaramond";
+  color: white;
+}
+
 .line {
   border-top: 1px solid #FFFFFF;
   height: 0px;
 }
 
-footer .line {
-  margin: 80px 0px 30px 0px;
-}
-
-.copyright {
+.footer__copyright {
   color: white;
   text-align: center;
   opacity: 0.5;
-  font-size: 18px;
   font-weight: 700;
   font-style: normal;
   font-family: "CormorantGaramond";
-  margin-bottom: 30px;
-}
-
-.wrapper-contact-information {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.contact-information h3 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  font-weight: 700;
-  font-style: normal;
-  font-family: "CormorantGaramond";
-  color: white;
-}
-
-.contact-information p,
-.modal-content p {
-  margin-top: 15px;
-  font-size: 18px;
-  font-weight: 400;
-  font-style: normal;
-  font-family: "CormorantGaramond";
-  color: white;
 }

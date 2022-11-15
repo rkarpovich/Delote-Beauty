@@ -1,3 +1,39 @@
 @media all and (min-width: 768px) {
+  .services {
+    padding: 40px 0px 0px 0px;
+  }
+  
+  .description {
+    font-size: 34px;
+  }
+  
+  .services-img {
+    justify-content: space-between;
+  }
+  
+  .services-img-wrapper{
+    width: 240px;
+    height: 280px;
+    margin: 0px 30px 100px 30px;
+  }
 
+  .services-img-wrapper img {
+    width: 240px;
+    height: 280px;
+  }
+
+  .services-img-wrapper figure {
+    top: 15px;
+    right: 15px;
+  }
+
+  figcaption {
+    font-size: 22px;
+    margin-top: 12px;
+  }
+  
+  figcaption:last-child {
+    font-size: 14px;
+    margin-top: 6px;
+  }
 }

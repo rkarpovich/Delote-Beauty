@@ -1,3 +1,22 @@
 @media all and (min-width: 1920px) {
-
+  .price__description {
+    font-size: 48px;
+  }
+  
+  .price__wrapper-content-section {
+    padding-top: 80px;
+  }
+  
+  .price__img-content-section {
+    margin-bottom: 80px;
+  }
+  
+  .wrapper_price__services-section p {
+    font-size: 27px;
+  }
+  
+  .price__services-line {
+    margin-bottom: 40px;
+  }
+ 
 }
